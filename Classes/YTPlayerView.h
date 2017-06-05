@@ -260,6 +260,9 @@ typedef NS_ENUM(NSInteger, YTPlayerError) {
  */
 - (void)stopVideo;
 
+- (void)muteVideo;
+- (void)unMuteVideo;
+
 /**
  * Seek to a given time on a playing video. Corresponds to this method from
  * the JavaScript API:
